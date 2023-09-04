@@ -11,6 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Documentation" Type="Folder">
+			<Item Name="SP-2500i.pdf" Type="Document" URL="../Monochromator/Datasheets/SP-2500i.pdf"/>
+			<Item Name="SR830m.pdf" Type="Document" URL="../Lock-in-amplifier/Datasheets/SR830m.pdf"/>
+		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="Lock-in amplifier.lvlib" Type="Library" URL="../Lock-in-amplifier/Libraries/Lock-in amplifier/Lock-in amplifier.lvlib"/>
 			<Item Name="Monochromator.lvlib" Type="Library" URL="../Monochromator/Libraries/Monochromator/Monochromator.lvlib"/>
