@@ -1,0 +1,6 @@
+[submodule "Lock-in-amplifier"]
+	path = Lock-in-amplifier
+	url = https://github.com/dTorres594/Lock-in-amplifier.git
+[submodule "Monochromator"]
+	path = Monochromator
+	url = https://github.com/dTorres594/Monochromator.git
