@@ -22,8 +22,13 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Lock-in amplifier API.vi" Type="VI" URL="../Lock-in-amplifier/Libraries/Lock-in amplifier/Test Lock-in amplifier API.vi"/>
 			<Item Name="Test Monochromator API.vi" Type="VI" URL="../Monochromator/Libraries/Monochromator/Test Monochromator API.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Support/Test.vi"/>
 		</Item>
+		<Item Name="Test program data.ctl" Type="VI" URL="../Support/Test program data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
@@ -89,6 +94,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
