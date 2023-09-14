@@ -19,12 +19,14 @@
 			<Item Name="Lock-in amplifier.lvlib" Type="Library" URL="../Lock-in-amplifier/Libraries/Lock-in amplifier/Lock-in amplifier.lvlib"/>
 			<Item Name="Monochromator.lvlib" Type="Library" URL="../Monochromator/Libraries/Monochromator/Monochromator.lvlib"/>
 		</Item>
+		<Item Name="Support" Type="Folder">
+			<Item Name="Test program data.ctl" Type="VI" URL="../Support/Test program data.ctl"/>
+		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Lock-in amplifier API.vi" Type="VI" URL="../Lock-in-amplifier/Libraries/Lock-in amplifier/Test Lock-in amplifier API.vi"/>
 			<Item Name="Test Monochromator API.vi" Type="VI" URL="../Monochromator/Libraries/Monochromator/Test Monochromator API.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Support/Test.vi"/>
 		</Item>
-		<Item Name="Test program data.ctl" Type="VI" URL="../Support/Test program data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
