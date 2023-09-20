@@ -19,6 +19,18 @@
 			<Item Name="Lock-in amplifier.lvlib" Type="Library" URL="../Lock-in-amplifier/Libraries/Lock-in amplifier/Lock-in amplifier.lvlib"/>
 			<Item Name="Monochromator.lvlib" Type="Library" URL="../Monochromator/Libraries/Monochromator/Monochromator.lvlib"/>
 		</Item>
+		<Item Name="QMH" Type="Folder">
+			<Item Name="controls" Type="Folder">
+				<Item Name="UI Data.ctl" Type="VI" URL="../QMH_JGLG/controls/UI Data.ctl"/>
+			</Item>
+			<Item Name="Lib" Type="Folder">
+				<Item Name="Check Loop Error.vi" Type="VI" URL="../QMH_JGLG/support/Check Loop Error.vi"/>
+				<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../QMH_JGLG/support/Error Handler - Event Handling Loop.vi"/>
+				<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../QMH_JGLG/support/Error Handler - Message Handling Loop.vi"/>
+				<Item Name="Message Queue.lvlib" Type="Library" URL="../QMH_JGLG/support/Message Queue/Message Queue.lvlib"/>
+				<Item Name="User Event - Stop.lvlib" Type="Library" URL="../QMH_JGLG/support/User Event - Stop/User Event - Stop.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Test program data.ctl" Type="VI" URL="../Support/Test program data.ctl"/>
 		</Item>
@@ -27,6 +39,7 @@
 			<Item Name="Test Monochromator API.vi" Type="VI" URL="../Monochromator/Libraries/Monochromator/Test Monochromator API.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Support/Test.vi"/>
 		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../QMH_JGLG/Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
