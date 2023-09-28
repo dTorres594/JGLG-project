@@ -28,6 +28,7 @@
 				<Item Name="Lock-in config.ctl" Type="VI" URL="../QMH_JGLG/controls/Lock-in config.ctl"/>
 				<Item Name="Mono config.ctl" Type="VI" URL="../QMH_JGLG/controls/Mono config.ctl"/>
 				<Item Name="UI Data.ctl" Type="VI" URL="../QMH_JGLG/controls/UI Data.ctl"/>
+				<Item Name="Wake HL data -- cluster.ctl" Type="VI" URL="../QMH_JGLG/controls/Wake HL data -- cluster.ctl"/>
 			</Item>
 			<Item Name="Lib" Type="Folder">
 				<Item Name="Check Loop Error.vi" Type="VI" URL="../QMH_JGLG/support/Check Loop Error.vi"/>
