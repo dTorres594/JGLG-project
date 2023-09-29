@@ -40,6 +40,7 @@
 			<Item Name="Support" Type="Folder">
 				<Item Name="Config dialog.vi" Type="VI" URL="../QMH_JGLG/support/Config dialog.vi"/>
 				<Item Name="Config path -- constant.vi" Type="VI" URL="../QMH_JGLG/support/Config path -- constant.vi"/>
+				<Item Name="Configure and start movement.vi" Type="VI" URL="../QMH_JGLG/support/Configure and start movement.vi"/>
 				<Item Name="Load config.vi" Type="VI" URL="../QMH_JGLG/support/Load config.vi"/>
 				<Item Name="Save config.vi" Type="VI" URL="../QMH_JGLG/support/Save config.vi"/>
 			</Item>
