@@ -15,7 +15,6 @@
 			<Item Name="config.ini" Type="Document" URL="../config/config.ini"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder">
-			<Item Name="SP-2500i.pdf" Type="Document" URL="../Monochromator/Datasheets/SP-2500i.pdf"/>
 			<Item Name="SR830m.pdf" Type="Document" URL="../Lock-in-amplifier/Datasheets/SR830m.pdf"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
@@ -38,9 +37,10 @@
 				<Item Name="User Event - Stop.lvlib" Type="Library" URL="../QMH_JGLG/support/User Event - Stop/User Event - Stop.lvlib"/>
 			</Item>
 			<Item Name="Support" Type="Folder">
+				<Item Name="Acquire data -- subVI.vi" Type="VI" URL="../QMH_JGLG/support/Acquire data -- subVI.vi"/>
 				<Item Name="Config dialog.vi" Type="VI" URL="../QMH_JGLG/support/Config dialog.vi"/>
 				<Item Name="Config path -- constant.vi" Type="VI" URL="../QMH_JGLG/support/Config path -- constant.vi"/>
-				<Item Name="Configure and start movement.vi" Type="VI" URL="../QMH_JGLG/support/Configure and start movement.vi"/>
+				<Item Name="Configure movement.vi" Type="VI" URL="../QMH_JGLG/support/Configure movement.vi"/>
 				<Item Name="Load config.vi" Type="VI" URL="../QMH_JGLG/support/Load config.vi"/>
 				<Item Name="Save config.vi" Type="VI" URL="../QMH_JGLG/support/Save config.vi"/>
 			</Item>
@@ -95,6 +95,7 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
