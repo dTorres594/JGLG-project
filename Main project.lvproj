@@ -11,6 +11,80 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="3rd party" Type="Folder">
+			<Item Name="SP2500i Drivers" Type="Folder">
+				<Item Name="FTDI" Type="Folder">
+					<Item Name="Direct2" Type="Folder">
+						<Item Name="amd64" Type="Folder">
+							<Item Name="ftbusui.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/amd64/ftbusui.dll"/>
+							<Item Name="ftcserco.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/amd64/ftcserco.dll"/>
+							<Item Name="ftd2xx.lib" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/amd64/ftd2xx.lib"/>
+							<Item Name="ftd2xx64.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/amd64/ftd2xx64.dll"/>
+							<Item Name="ftdibus.sys" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/amd64/ftdibus.sys"/>
+							<Item Name="ftlang.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/amd64/ftlang.dll"/>
+							<Item Name="ftser2k.sys" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/amd64/ftser2k.sys"/>
+							<Item Name="ftserui2.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/amd64/ftserui2.dll"/>
+						</Item>
+						<Item Name="i386" Type="Folder">
+							<Item Name="ftd2xx.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/i386/ftd2xx.dll"/>
+						</Item>
+						<Item Name="PI_Accessories.inf" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/PI_Accessories.inf"/>
+						<Item Name="pi_ftdibus.cat" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/Direct2/pi_ftdibus.cat"/>
+					</Item>
+					<Item Name="VCP_BUS" Type="Folder">
+						<Item Name="amd64" Type="Folder">
+							<Item Name="ftbusui.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/amd64/ftbusui.dll"/>
+							<Item Name="ftcserco.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/amd64/ftcserco.dll"/>
+							<Item Name="ftd2xx64.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/amd64/ftd2xx64.dll"/>
+							<Item Name="ftdibus.sys" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/amd64/ftdibus.sys"/>
+							<Item Name="ftlang.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/amd64/ftlang.dll"/>
+							<Item Name="ftser2k.sys" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/amd64/ftser2k.sys"/>
+							<Item Name="ftserui2.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/amd64/ftserui2.dll"/>
+						</Item>
+						<Item Name="i386" Type="Folder">
+							<Item Name="ftd2xx.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/i386/ftd2xx.dll"/>
+						</Item>
+						<Item Name="acton_ftdibus.cat" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/acton_ftdibus.cat"/>
+						<Item Name="acton_ftdibus.inf" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_BUS/acton_ftdibus.inf"/>
+					</Item>
+					<Item Name="VCP_PORT" Type="Folder">
+						<Item Name="amd64" Type="Folder">
+							<Item Name="ftbusui.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/amd64/ftbusui.dll"/>
+							<Item Name="ftcserco.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/amd64/ftcserco.dll"/>
+							<Item Name="ftd2xx64.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/amd64/ftd2xx64.dll"/>
+							<Item Name="ftdibus.sys" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/amd64/ftdibus.sys"/>
+							<Item Name="ftlang.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/amd64/ftlang.dll"/>
+							<Item Name="ftser2k.sys" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/amd64/ftser2k.sys"/>
+							<Item Name="ftserui2.dll" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/amd64/ftserui2.dll"/>
+						</Item>
+						<Item Name="acton_ftdiport.cat" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/acton_ftdiport.cat"/>
+						<Item Name="acton_ftdiport.inf" Type="Document" URL="../3rd party/SP2500i Drivers/FTDI/VCP_PORT/acton_ftdiport.inf"/>
+					</Item>
+				</Item>
+				<Item Name="PI1394" Type="Folder">
+					<Item Name="pi1394wdf.inf" Type="Document" URL="../3rd party/SP2500i Drivers/PI1394/pi1394wdf.inf"/>
+					<Item Name="pi1394wdf.sys" Type="Document" URL="../3rd party/SP2500i Drivers/PI1394/pi1394wdf.sys"/>
+					<Item Name="pi1394x64.cat" Type="Document" URL="../3rd party/SP2500i Drivers/PI1394/pi1394x64.cat"/>
+					<Item Name="WdfCoInstaller01009.dll" Type="Document" URL="../3rd party/SP2500i Drivers/PI1394/WdfCoInstaller01009.dll"/>
+					<Item Name="WUDFUpdate_01009.dll" Type="Document" URL="../3rd party/SP2500i Drivers/PI1394/WUDFUpdate_01009.dll"/>
+				</Item>
+				<Item Name="PIUSB" Type="Folder">
+					<Item Name="piusb64.cat" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB/piusb64.cat"/>
+					<Item Name="piusbwdf.inf" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB/piusbwdf.inf"/>
+					<Item Name="piusbwdf.sys" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB/piusbwdf.sys"/>
+					<Item Name="wdfcoinstaller01009.dll" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB/wdfcoinstaller01009.dll"/>
+					<Item Name="WUDFUpdate_01009.dll" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB/WUDFUpdate_01009.dll"/>
+				</Item>
+				<Item Name="PIUSB3" Type="Folder">
+					<Item Name="piusb3.cat" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB3/piusb3.cat"/>
+					<Item Name="piusb3.inf" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB3/piusb3.inf"/>
+					<Item Name="piusb3.sys" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB3/piusb3.sys"/>
+					<Item Name="WdfCoinstaller01011.dll" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB3/WdfCoinstaller01011.dll"/>
+					<Item Name="WUDFUpdate_01011.dll" Type="Document" URL="../3rd party/SP2500i Drivers/PIUSB3/WUDFUpdate_01011.dll"/>
+				</Item>
+				<Item Name="haspdinst.exe" Type="Document" URL="../3rd party/SP2500i Drivers/haspdinst.exe"/>
+			</Item>
+		</Item>
 		<Item Name="Config" Type="Folder">
 			<Item Name="config.ini" Type="Document" URL="../config/config.ini"/>
 		</Item>
@@ -147,6 +221,180 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Application" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{32B309B5-CE4A-4482-855B-9503A1DB3B36}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EEE76E74-FD72-462B-A64E-EEE01FD91FF3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{46F627AF-5B8D-460F-AFF2-1410214ACAEF}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6CABC7F4-F248-46CA-9DE5-1C2D53023836}</Property>
+				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
+				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Analyzer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Analyzer.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">Config</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Config</Property>
+				<Property Name="Destination[3].destName" Type="Str">Documentation</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Documentation</Property>
+				<Property Name="Destination[4].destName" Type="Str">3rd party</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/3rd party</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{712B8798-169B-48E8-ABF7-791564A78816}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Config</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Documentation</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/3rd party</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">Centro de Investigaciones en Optica</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Specra analysis using a monochromator as the source of the signal acquired by a Lock-in amplifier.</Property>
+				<Property Name="TgtF_internalName" Type="Str">Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Centro de Investigaciones en Optica</Property>
+				<Property Name="TgtF_productName" Type="Str">Mono/Lock-in</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{73B79B90-E377-4B11-9DC1-15CAF03ACD1A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Analyzer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Main project</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{491DF83B-ADF0-4ED8-AD2B-6E51CBF4DE24}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Analyzer</Property>
+				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{CB6C2533-4926-42B8-AC21-04BB9679F818}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 20.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{F12C6F92-5B1C-4EAB-9364-96026CE1920D}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-Serial Runtime 20.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{944CC86F-BDFB-4850-878C-370B9A7FF12C}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 20.0</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{6B440D80-3B0D-43B2-8A06-E2E939AA1006}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2020 SP1</Property>
+				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[3].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[11].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{61FCC73D-8092-457D-8905-27C0060D88E1}</Property>
+				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2020</Property>
+				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{D84FC73F-D1E0-4C05-A30C-DB882CD1ABD8}</Property>
+				<Property Name="DistPartCount" Type="Int">4</Property>
+				<Property Name="INST_author" Type="Str">Centro de Investigaciones en Optica</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Analyzer/Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
+				<Property Name="INST_installerName" Type="Str">install.exe</Property>
+				<Property Name="INST_productName" Type="Str">Analyzer</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Centro de Investigaciones en Optica</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{9B1DEFDD-7C1A-493C-A1E4-1495FEED3A5C}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{46F699F1-E86D-46BD-9B89-1CF3E87B1E8C}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Analyzer.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Analyzer</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Analyzer</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{73B79B90-E377-4B11-9DC1-15CAF03ACD1A}</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">haspdinst.exe</Property>
+				<Property Name="Source[0].File[1].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/3rd party/SP2500i Drivers/haspdinst.exe</Property>
+				<Property Name="Source[0].FileCount" Type="Int">2</Property>
+				<Property Name="Source[0].name" Type="Str">Application</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Application</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
