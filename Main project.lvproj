@@ -239,7 +239,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{6CABC7F4-F248-46CA-9DE5-1C2D53023836}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Analyzer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Analyzer.exe</Property>
@@ -254,7 +254,7 @@
 				<Property Name="Destination[4].destName" Type="Str">3rd party</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/3rd party</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{712B8798-169B-48E8-ABF7-791564A78816}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ABD810A3-8C5B-496B-BA70-69A6A716C625}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -281,7 +281,15 @@
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/3rd party</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Modules/Monochromator.lvlib/Documentation</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Modules/Monochromator.lvlib/Documentation/SP-2500i.pdf</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Centro de Investigaciones en Optica</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Specra analysis using a monochromator as the source of the signal acquired by a Lock-in amplifier.</Property>
 				<Property Name="TgtF_internalName" Type="Str">Application</Property>
@@ -363,7 +371,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Analyzer</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Centro de Investigaciones en Optica</Property>
