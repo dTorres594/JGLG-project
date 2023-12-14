@@ -128,9 +128,6 @@
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../QMH_JGLG/Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Stanford Research 830.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Stanford Research 830/Stanford Research 830.lvlib"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -239,7 +236,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{6CABC7F4-F248-46CA-9DE5-1C2D53023836}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Analyzer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Analyzer.exe</Property>
@@ -254,7 +251,7 @@
 				<Property Name="Destination[4].destName" Type="Str">3rd party</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/3rd party</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ABD810A3-8C5B-496B-BA70-69A6A716C625}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{57A7438E-2440-4F24-BE2E-F9E86A62E6A1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -371,7 +368,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Analyzer</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Centro de Investigaciones en Optica</Property>
@@ -390,7 +387,10 @@
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Analyzer</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Analyzer</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Analyzer</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">Analyzer</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{73B79B90-E377-4B11-9DC1-15CAF03ACD1A}</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
 				<Property Name="Source[0].File[1].name" Type="Str">haspdinst.exe</Property>
