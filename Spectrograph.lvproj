@@ -236,7 +236,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{6CABC7F4-F248-46CA-9DE5-1C2D53023836}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Specrograph.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Specrograph.exe</Property>
@@ -250,8 +250,9 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/Documentation</Property>
 				<Property Name="Destination[4].destName" Type="Str">3rd party</Property>
 				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/Application/3rd party</Property>
+				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6A0E2A7F-9C8B-4D8D-AE8F-A348BF7717D4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3D8CE939-5826-4A5B-A82D-A7F7E1AA9358}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -271,22 +272,26 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Documentation</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/3rd party</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Modules/Monochromator.lvlib/Documentation</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Modules/Monochromator.lvlib/Documentation</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Modules/Monochromator.lvlib/Documentation/SP-2500i.pdf</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Modules/Monochromator.lvlib/Documentation/SP-2500i.pdf</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/3rd party/SP2500i Drivers</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/3rd party</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">Centro de Investigaciones en Optica</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Specra analysis using a monochromator as the source of the signal acquired by a Lock-in amplifier.</Property>
 				<Property Name="TgtF_internalName" Type="Str">Application</Property>
@@ -368,7 +373,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Spectrograph</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20008011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Centro de Investigaciones en Optica</Property>
@@ -392,7 +397,7 @@
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">Analyzer</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{73B79B90-E377-4B11-9DC1-15CAF03ACD1A}</Property>
-				<Property Name="Source[0].File[1].cmdArg" Type="Str">-install</Property>
+				<Property Name="Source[0].File[1].cmdArg" Type="Str"> -install</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{6745A727-604A-4CC2-A0DD-038D9CD42FDC}</Property>
 				<Property Name="Source[0].File[1].name" Type="Str">haspdinst.exe</Property>
 				<Property Name="Source[0].File[1].runEXE" Type="Bool">true</Property>
